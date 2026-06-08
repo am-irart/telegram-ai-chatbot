@@ -1,0 +1,38 @@
+telegram-ai-chatbot/
+├── main.py
+├── bot/
+│   ├── __init__.py
+│   └── client.py
+├── handlers/
+│   ├── __init__.py
+│   ├── commands.py
+│   ├── messages.py
+│   └── errors.py
+├── services/
+│   ├── __init__.py
+│   ├── gemini.py
+│   ├── rate_limiter.py
+│   └── statistics.py
+├── providers/
+│   ├── __init__.py
+│   └── gemini_provider.py
+├── database/
+│   ├── __init__.py
+│   ├── db.py
+│   ├── models.py
+│   └── queries.py
+├── middlewares/
+│   ├── __init__.py
+│   ├── auth.py
+│   ├── rate_limit.py
+│   └── logging.py
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   └── constants.py
+├── logs/
+│   └── .gitkeep
+├── .env.example
+├── requirements.txt
+├── README.md
+└── .gitignore
